@@ -1,3 +1,4 @@
+package lab.assignment.afterrefactoring;
 public abstract class CoffeeTemplate {
 
     // fixed flow

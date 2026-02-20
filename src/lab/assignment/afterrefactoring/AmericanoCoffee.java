@@ -1,4 +1,5 @@
-public class CapuccinoCoffee extends CoffeeTemplate {
+package lab.assignment.afterrefactoring;
+public class AmericanoCoffee extends CoffeeTemplate {
 
     @Override
     protected void brew() {
@@ -7,11 +8,11 @@ public class CapuccinoCoffee extends CoffeeTemplate {
 
     @Override
     protected void addIngredients() {
-        System.out.println("Adding steamed milk");
+        System.out.println("Add more hot water");
     }
 
     @Override
     protected void finalTouch() {
-        System.out.println("Add foam on top");
+        System.out.println("Add sugar and cream");
     }
 }

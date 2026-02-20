@@ -1,3 +1,4 @@
+package lab.assignment.afterrefactoring;
 public class CoffeeMaker {
 
     // will run any coffee recipe

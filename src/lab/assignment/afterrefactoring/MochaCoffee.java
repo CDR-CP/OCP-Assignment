@@ -1,3 +1,4 @@
+package lab.assignment.afterrefactoring;
 public class MochaCoffee extends CoffeeTemplate {
 
     @Override

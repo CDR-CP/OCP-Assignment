@@ -1,3 +1,9 @@
+package lab.assignment.afterrefactoring.clientcode;
+
+import lab.assignment.afterrefactoring.AmericanoCoffee;
+import lab.assignment.afterrefactoring.CappuccinoCoffee;
+import lab.assignment.afterrefactoring.CoffeeMaker;
+import lab.assignment.afterrefactoring.MochaCoffee;
 public class CoffeeClient {
 
     public static void main(String[] args) {
@@ -8,7 +14,7 @@ public class CoffeeClient {
         System.out.println();
 
         System.out.println("** Capuccino **");
-        maker.prepareCoffee(new CapuccinoCoffee());
+        maker.prepareCoffee(new CappuccinoCoffee());
         System.out.println();
 
         System.out.println("** Americano **");
